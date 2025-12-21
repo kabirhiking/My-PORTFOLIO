@@ -14,7 +14,7 @@ export const Projects = () => {
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
 
-                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.2]] transition">
+                {/* <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.2]] transition">
                     <h3 className="text-xl font-bold mb-2" >Renew Tech</h3>
                     <p className="text-gray-400 mb-4" >
                         Sclable management and automated scaling
@@ -44,10 +44,42 @@ export const Projects = () => {
 
                     </div>
 
+                </div> */}
+
+                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.2]] transition">
+                    <h3 className="text-xl font-bold mb-2" > Sora </h3>
+                    <p className="text-gray-400 mb-4" >
+                        Bus Ticket Reservation System — A full-stack bus reservation system built with Django following Clean Architecture and a React front end. 
+                        The project models real Bangladesh routes with dynamic boarding points and a smart trip-search feature, and includes an interactive seat-selection UI plus a complete booking workflow from selection through confirmation.
+                    </p>
+                    <div className="">
+                        {["Django", "Python", "Using MVT"].map((tech, key) => (
+
+                        <span 
+                            key={key}
+                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
+                                        hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.1]] transition-all"
+                        >
+                            {tech}
+                        </span>                       
+                        ))}
+                        <div>
+                            <div className="flex justify-between items-center" >
+                                <a href="https://sitesoraride.netlify.app/" 
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4 " 
+                                >
+                                    {" "}
+                                    View Project ￫{" "}
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.2]] transition">
-                    <h3 className="text-xl font-bold mb-2" >E-Commerce Web API </h3>
+                    <h3 className="text-xl font-bold mb-2" > E-Shop </h3>
                     <p className="text-gray-400 mb-4" >
                         Built a modular RESTful API with FastAPI to manage users, products, carts, and orders using JWT
                         authentication.
@@ -65,7 +97,7 @@ export const Projects = () => {
                         ))}
                         <div>
                             <div className="flex justify-between items-center" >
-                                <a href="https://web-production-c09a8.up.railway.app/docs" 
+                                <a href="https://ecommerce-api-seven-zeta.vercel.app/" 
                                 className="text-blue-400 hover:text-blue-300 transition-colors my-4 " 
                                 >
                                     {" "}
@@ -79,7 +111,7 @@ export const Projects = () => {
                 </div>
 
                 
-                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.2]] transition">
+                {/* <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.2]] transition">
                     <h3 className="text-xl font-bold mb-2" >AI Chat Log Summarizer </h3>
                     <p className="text-gray-400 mb-4" >
                         Implemented functionality to count total messages per speaker, extract top 5 keywords using frequency and
@@ -109,39 +141,9 @@ export const Projects = () => {
 
                     </div>
 
-                </div>
+                </div> */}
 
-                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.2]] transition">
-                    <h3 className="text-xl font-bold mb-2" >ToDo Web App </h3>
-                    <p className="text-gray-400 mb-4" >
-                        Users organize and manage tasks efficiently with features like adding, editing, and deleting tasks. 
-                        It often includes priority settings, deadlines, and progress tracking for better productivity.
-                    </p>
-                    <div className="">
-                        {["Django", "Python", "Using MVT"].map((tech, key) => (
-
-                        <span 
-                            key={key}
-                            className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20
-                                        hover:shadow-[0_2px_8px_rgba[59, 130, 246, 0.1]] transition-all"
-                        >
-                            {tech}
-                        </span>                       
-                        ))}
-                        <div>
-                            <div className="flex justify-between items-center" >
-                                <a href="https://github.com/kabirhiking/ToDo" 
-                                className="text-blue-400 hover:text-blue-300 transition-colors my-4 " 
-                                >
-                                    {" "}
-                                    View Project ￫{" "}
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-
-                </div>
+               
 
             </div>
 
