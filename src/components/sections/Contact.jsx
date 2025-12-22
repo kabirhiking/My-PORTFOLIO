@@ -23,7 +23,10 @@ export const Contact = () => {
         alert("Message Sent!");
         setFormData({ name: "", email: "", message: "" });
       })
-      .catch(() => alert("Oops! Something went wrong. Please try again."));
+      .catch((error) => {
+        console.error("EmailJS Error:", error);
+        alert("Oops! Something went wrong. Please try again.");
+      });
   };
 
   return (
