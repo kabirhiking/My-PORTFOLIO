@@ -13,10 +13,13 @@ export const Home = () => {
                     Hi, I'am Kabir 
                 </h1>
 
-                <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto" >
-                    I'm a backend developer who loves crafting clean, scalable web applications. 
+                <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto text-justify" >
+                    I'm a web developer who loves crafting clean, scalable web applications. 
                     I enjoy taking on new tasks and learning about the complexities of software development. 
-                     
+
+                    {/* Hi, I’m Raihan Kabir, a freelance software engineer specializing in Django and FastAPI development. I build secure, scalable, and maintainable web applications and RESTful APIs using Python, with experience across backend architecture, authentication systems, database design, and performance optimization. 
+                    I’ve worked on full-stack and backend-focused projects, collaborating in Agile environments and delivering clean, reliable solutions. As a freelancer, I enjoy working closely with clients to turn ideas into functional products, prioritizing clear communication, quality code, and continuous learning.
+                      */}
                 </p>
                 <div className="flex justify-center space-x-4" >
                     <a 

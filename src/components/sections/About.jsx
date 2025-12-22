@@ -2,14 +2,21 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
     const frontendSkill = [
-        "React", 
+         
+        "HTML",
         "TailwindCSS",
+        "React",
         "JavaScript",
-        "html"
+        
     ];
 
     const backendSkill = [
-        "Pyhton", 
+        "Python",
+        "Django",
+        "FastAPI",
+        "REST API",
+        "SQLAlchemy",
+        "PostgreSQL", 
         "Docker",
         "Mysql",
         "Docker"
@@ -28,9 +35,18 @@ export const About = () => {
 
                     <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all" >
                         <p>
-                          Passionate developer with expertise in building scalable web
+                          {/* Passionate developer with expertise in building scalable web
                           applications and creating innovative solutions. I am constantly 
-                          seeking opportunities to learn, grow, and push the boundaries of what is possible.
+                          seeking opportunities to learn, grow, and push the boundaries of what is possible. */}
+
+                          Hi, I’m Raihan Kabir, a freelance software engineer specializing in Django and FastAPI development. 
+                          I build secure, scalable, and maintainable web applications and RESTful APIs using Python, with experience 
+                          across backend architecture, authentication systems, database design, and performance optimization. 
+
+                    I’ve worked on full-stack and backend-focused projects, collaborating in Agile environments and delivering clean, 
+                    reliable solutions. As a freelancer, I enjoy working closely with clients to turn ideas into functional products, 
+                    prioritizing clear communication, quality code, and continuous learning.
+                     
                         </p>
 
                         <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -78,7 +94,7 @@ export const About = () => {
                                     <strong> Bsc in Computer Science and Engineeering </strong> - University of Asia Pacific
                                 </li>
                                 <li>
-                                    Relevent CourseWork: Data Structure, Web Development, Cloud Computing.
+                                    Relevent CourseWork: Data Structure, Algorithm, Web Development, Cloud Computing.
                                 </li>
                             </ul>
                         </div>
@@ -97,6 +113,26 @@ export const About = () => {
                              <div>
                                 <h4 className="font-semibold"> 
                                     {" "}
+                                     Software Engineer — Attoexa Solutions
+                                    2023 – 2024
+                                </h4>
+                                <p>
+                                    {/* Developed and maintained microservice for cloud-based applications. */}
+
+                                    Developed and maintained web applications and RESTful APIs.
+
+                                    Built and integrated front-end components with backend functionality.
+
+                                    Contributed to end-to-end full-stack development, testing, and debugging.
+                                    <p>
+                                        Assisted in building front-end components and integration REST APIs
+                                    </p>
+                                </p>
+                            </div>
+
+                             <div>
+                                <h4 className="font-semibold"> 
+                                    {" "}
                                     Intern at HrSoftbd (2024){" "}
                                 </h4>
                                 <p>
@@ -106,6 +142,9 @@ export const About = () => {
                                     </p>
                                 </p>
                             </div>
+
+
+
                             </div>
                         </div>
 
