@@ -1,4 +1,4 @@
-import { useState, useTransition } from "react";
+import { useState } from "react";
 import"./App.css";
 import { LoadingScreen  } from "./components/LoadingScreen";
 import "./index.css";
@@ -49,7 +49,7 @@ function App() {
       <div
         className={`min-h-screen transition-opacity duration-700 ${
           isLoaded ? "opacity-100" : "opacity-0"
-        } bg-black text-gray-100`}
+        } bg-[#F5F0E8] text-[#2A2A2A]`}
       >
         {loadingError && (
           <div className="fixed top-0 left-0 right-0 bg-red-900 text-white p-2 text-center z-50">
