@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <defs>
+    <linearGradient id="rkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6E1E2A" />
+      <stop offset="100%" stop-color="#4A121B" />
+    </linearGradient>
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#000000" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+
+  <!-- Circular Background matching the portfolio branding -->
+  <circle cx="32" cy="32" r="30" fill="url(#rkGrad)" stroke="#C8A96A" stroke-width="2" />
+
+  <!-- Inner subtle gold border circle -->
+  <circle cx="32" cy="32" r="26" fill="none" stroke="#C8A96A" stroke-width="1" stroke-dasharray="3 2" opacity="0.6"/>
+
+  <!-- Monogram text 'RK' -->
+  <text 
+    x="32" 
+    y="39" 
+    text-anchor="middle" 
+    font-family="'Playfair Display', 'Georgia', serif" 
+    font-size="22" 
+    font-weight="700" 
+    fill="#FAF7F2" 
+    letter-spacing="1"
+    filter="url(#shadow)">RK</text>
+</svg>
